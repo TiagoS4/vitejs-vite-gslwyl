@@ -23,7 +23,7 @@ export const ProgressBar = () => {
   }
 
   const getColor = () => {
-    if (progress < 15) {
+    if (progress < 16) {
       return "#ff0000";
     } else if (progress < 30) {
       return "#ffff00";
